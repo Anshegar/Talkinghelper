@@ -1,0 +1,25 @@
+Инструкция Ютуюб - https://www.youtube.com/watch?v=AKymlea8sYM
+
+Берес отсюда 
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+
+PyAudio‑0.2.11‑cp37‑cp37m‑win_amd64.whl и PyAudio-0.2.11-cp37-cp37m-win32.whl  ( обе так как х64 может не запустится)
+
+Переносим обе библиотеки виловские:
+ЕСЛИ НАДО ЗАГРУЗИТЬ В ОБЩИЙ ПРОЕКТ библиолтек: 		C:\Users\Anton\AppData\Roaming\Python\Python37\Scripts
+В CMD пишем  
+pip install C:\Users\Anton\AppData\Roaming\Python\Python37\Scripts\PyAudio‑0.2.11‑cp37‑cp37m‑win_amd64.whl --user
+pip install C:\Users\Anton\AppData\Roaming\Python\Python37\Scripts\PyAudio-0.2.11-cp37-cp37m-win32.whl --user
+
+
+ЕСЛИ НАДО ПОСТАВИТЬ В ВИРТУАЛЬНУЮ СРЕДУ библиотек:
+В терминале в Pycharm перейти в папку Scripts и активировать соответсвующую этот папке виртуальную среду ( deactivate , activate)
+После, с активированой средой прописать среду
+pip install E:\Python\Projects\NOX\Scripts\PyAudio‑0.2.11‑cp37‑cp37m‑win_amd64.whl
+pip install E:\Python\Projects\NOX\Scripts\PyAudio-0.2.11-cp37-cp37m-win32.whl
+
+
+ВАЖНО : Иногда запрашивает ошибкой python_Levenshtein, если поставить то в базовом варианте ПЕРЕСТАНЕРТ РАСПОЗНАВАТЬ РЕЧЬ ВООБЩЕ!
+pip install E:\Python\Projects\NOX\Scripts\python_Levenshtein-0.12.0-cp37-cp37m-win32.whl
+pip install E:\Python\Projects\NOX\Scripts\python_Levenshtein-0.12.0-cp37-cp37m-win_amd64.whl
+
